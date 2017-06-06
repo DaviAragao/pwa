@@ -1,0 +1,36 @@
+[debug] [2017-06-06T13:16:16.299Z] ----------------------------------------------------------------------
+[debug] [2017-06-06T13:16:16.303Z] Command:      /usr/bin/nodejs /usr/bin/firebase serve
+[debug] [2017-06-06T13:16:16.304Z] CLI Version:  3.9.1
+[debug] [2017-06-06T13:16:16.304Z] Platform:     linux
+[debug] [2017-06-06T13:16:16.304Z] Node Version: v6.10.3
+[debug] [2017-06-06T13:16:16.304Z] Time:         Tue Jun 06 2017 10:16:16 GMT-0300 (BRT)
+[debug] [2017-06-06T13:16:16.304Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-06T13:16:16.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-06T13:16:16.317Z] > authorizing via signed-in user
+[debug] [2017-06-06T13:16:16.320Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-06T13:16:16.320Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/R-l2n7O00ojqjr0hhHlIx7RCUY3kZoODIXKrLFRGjLg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jun 06 2017 10:16:16 GMT-0300 (BRT)
+[debug] [2017-06-06T13:16:16.600Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-06T13:16:16.643Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/notas-bfec6  
+ Tue Jun 06 2017 10:16:16 GMT-0300 (BRT)
+[debug] [2017-06-06T13:16:19.827Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-06T13:16:19.828Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/notas-bfec6/tokens  
+ Tue Jun 06 2017 10:16:19 GMT-0300 (BRT)
+[debug] [2017-06-06T13:16:20.844Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/aragaozinho/pwa'...
+[info] 
+[debug] [2017-06-06T13:16:20.849Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/notas-bfec6  
+ Tue Jun 06 2017 10:16:20 GMT-0300 (BRT)
+[debug] [2017-06-06T13:16:21.942Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-06T13:16:21.943Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/199400883676/clients/_:getWebAppConfig  
+ Tue Jun 06 2017 10:16:21 GMT-0300 (BRT)
+[debug] [2017-06-06T13:16:24.724Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-06T13:16:24.822Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
